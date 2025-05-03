@@ -2,7 +2,7 @@ import s from "./Contact.module.css";
 import { GrUserManager } from "react-icons/gr";
 import { RiPhoneLine } from "react-icons/ri";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice.js";
+import {deleteContact} from "../../redux/contactsOps.js";
 
 function Contact({ contact: { id, name, number } }) {
   const dispatch = useDispatch();
